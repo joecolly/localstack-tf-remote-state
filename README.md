@@ -12,5 +12,5 @@ endpoint_url=http://localhost:4566
 To deploy to localstack:
 
 1. Run `localstack start`
-2. `cd workspace1` and do `tflocal init` and then `tflocal apply`
-3. `cd workspace2` and run `tflocal init` and then `tflocal apply`
+2. `cd workspace1` and run `tflocal init` and then `tflocal apply`
+3. `cd ../workspace2` and run `tflocal init` and then `tflocal apply`
